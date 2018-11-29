@@ -15,13 +15,13 @@
     if($row){
         if($row["pass"]==$pass){
             //用户密码正确
-            echo "<script>alert('欢迎回来，尊贵的会员！！！');location.href='../html/shouye.html'</script>";
+            echo "<script>alert('欢迎回来，尊贵的会员！！！');location.href='../../app/shouye.html'</script>";
         }else{
             //密码不正确
-            echo "<script>alert('密码不正确，错三次后，自动锁死用户！！！');location.href='../html/denglu.html'</script>";
+            echo "<script>alert('密码不正确，错三次后，自动锁死用户！！！');location.href='../../app/denglu.html'</script>";
         }
     }else{//用户不存在
-        echo "<script>alert('账户密码错误，请重新输入！') ;location.href='../html/denglu.html'</script>";
+        echo "<script>alert('账户密码错误，请重新输入！') ;location.href='../../app/denglu.html'</script>";
     }
 
 

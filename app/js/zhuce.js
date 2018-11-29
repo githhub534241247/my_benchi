@@ -43,7 +43,7 @@ uname.onblur = function () {
 
     ajax({
         method: "post",
-        url: "../php/checkUnameq.php",
+        url: "../../server/php/checkUnameq.php",
         data: {
             user: this.value
         },

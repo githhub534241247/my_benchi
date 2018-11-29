@@ -101,7 +101,7 @@
 
 <body>
     <div id="box">
-        <img src="images/sy/beij1.jpg" alt="">
+        <img src="images/shop/beij1.jpg" alt="">
     </div>
     <ul id="ulid" class="ulki">
 
@@ -141,7 +141,7 @@
                 }
             },
             getData() {
-                sendAjax('../js/shangpxingxi.json').then(res => {
+                sendAjax('../server/php/shangpxingxi.json').then(res => {
                     res = JSON.parse(res);
                     if (res.code == 0) {
                         //把商品数据储存到shop对象里

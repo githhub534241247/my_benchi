@@ -15,7 +15,7 @@
     
     if($row){
         //注册成功，调到登陆也。
-        echo "<script>alert('恭喜你，注册成功！！！');location.href='../../denglu.html'</script>";
+        echo "<script>alert('恭喜你，注册成功！！！');location.href='../../app/denglu.html'</script>";
     }else{
         echo "<script>alert('不幸的是，注册失败！') ;location.href='../../app/zhuce.html'</script>";
     }

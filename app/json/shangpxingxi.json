@@ -5,37 +5,37 @@
             "id": 1,
             "title": "梅赛德斯-A加长轴距系",
             "price": "21.6-31.6万",
-            "src": "../../app/images/shop/L1.jpg"
+            "src": "images/shop/L1.jpg"
         },
         {
             "id": 2,
             "title": "梅赛德斯-C加长轴距系",
             "price": "32.6-38.6万",
-            "src": "../../app/images/shop/L2.jpg"
+            "src": "images/shop/L2.jpg"
         },
         {
             "id": 3,
             "title": "梅赛德斯-AMG E系",
             "price": "38.7-83.1万",
-            "src": "../../app/images/shop/L3.jpg"
+            "src": "images/shop/L3.jpg"
         },
         {
             "id": 4,
             "title": "梅赛德斯-AMG S系",
             "price": "236.8万起",
-            "src": "../../app/images/shop/L4.jpg"
+            "src": "images/shop/L4.jpg"
         },
         {
             "id": 5,
             "title": "梅赛德斯-SUV CLA",
             "price": "24.6-35.6万",
-            "src": "../../app/images/shop/L5.jpg"
+            "src": "images/shop/L5.jpg"
         },
         {
             "id": 6,
             "title": "梅赛德斯-E系双门跑车",
             "price": "52.88-88.25万",
-            "src": "../../app/images/shop/L6.jpg"
+            "src": "images/shop/L6.jpg"
         }
     ]
 }

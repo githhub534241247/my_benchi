@@ -95,6 +95,7 @@
             height: 35px;
             margin-top: 10px;
             margin-bottom: 10px;
+            /* background-color: orangered; */
         }
     </style>
 </head>
@@ -111,7 +112,7 @@
 </body>
 
 </html>
-<script src="js/jquery.js"></script>
+<!-- <script src="js/jquery.js"></script> -->
 <script src="js/ajax0.1.0.js"></script>
 <script>
     var shop = (function () {
@@ -139,9 +140,10 @@
                         _this.setItem(_this.data[father.index]);
                     }
                 }
+
             },
             getData() {
-                sendAjax('../server/php/shangpxingxi.json').then(res => {
+                sendAjax('json/shangpxingxi.json').then(res => {
                     res = JSON.parse(res);
                     if (res.code == 0) {
                         //把商品数据储存到shop对象里
@@ -176,10 +178,17 @@
                 shopList.push(data);
                 //再把全部的数据存到本地
                 localStorage.shopList = JSON.stringify(shopList);
-            }
+            },
         }
-    }())
+    }());
 
     shop.init();
 
+</script>
+<script>
+    var button = document.querySelectorAll('button');
+    button.onmousemove() = function () {
+        // var e = e || event;
+        this.style('background-color', 'orangered');
+    };
 </script>

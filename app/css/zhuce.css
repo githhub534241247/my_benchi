@@ -1,0 +1,205 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ul li{
+    list-style: none;
+}
+body{
+    width: 100%;
+    height: 100%;
+    background-image: url(../images/xqy/zhuce1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+
+}
+#beij{
+    width: 1280px;
+    height: 696px;
+    background-color:blanchedalmond;
+    opacity: 0.2;
+}
+#denglu{
+    width: 380px;
+    height: 500px;
+    /* background: chartreuse; */
+    position: absolute;
+    top: 50px;
+    left: 450px;
+}
+#denglu div:first-child {
+    width: 350px;
+    height: 110px;
+    margin: 0 auto;
+}
+#denglu div img{
+    max-width: 100%;
+    max-height: 100%;
+}
+#denglu div:nth-child(2){
+    position: relative;
+}
+#denglu div:nth-child(2) dl dd> p{
+    display: inline-block;
+    width:120px;
+    font-size: 16px;
+    color: #382d29;
+    /* margin-left: 30px; */
+    margin-top: 40px;
+}
+#denglu div:nth-child(2) input{
+    width: 240px;
+    height: 32px;
+    border: none;
+    border-radius: 5px;
+}
+#denglu div:nth-child(2) .deng{
+    height: 30px;
+    margin-left: 80px;
+    margin-top: 50px;
+    background: #dfdfdf;
+    /* background: #fff8dc; */
+}
+#denglu div:nth-child(2) .deng:hover{
+    background:  #acacaa;
+    /* background: #4f331b; */
+}
+
+/* 用户名验证 */
+#reg dl dd span.info,#reg dl dd span.error,#reg dl dd span.succ{
+    /* display: block; */
+    font-size: 12px;
+    color: #333;
+    width: 167px;
+	height: 32px;
+    line-height: 32px;
+    padding: 0 0 0 33px;
+    position: absolute;
+    left:366px;
+    top: 36px;
+    display: none;
+}
+#reg dl dd span.info{
+	background: url(../images/reg_info.png) no-repeat;
+} 
+#reg dl dd span.error{
+	background: url(../images/reg_error.png) no-repeat;
+    color: red;
+}
+#reg dl dd span.succ{
+	background: url(../images/reg_succ.png) no-repeat 3px center;
+	padding: 0px 0 0 20px;
+	color: green;
+}
+#reg dl dd span.info_user{
+	height: 43px;
+	line-height: 18px;
+	background: url(../images/reg_info2.png) no-repeat;
+	padding-top: 7px;
+	top: 36px;
+	left: 366px;
+}
+#reg dl dd span.error_user{
+	top: 36px;
+	left: 366px;
+}
+/* #reg dl dd #checkUname{
+    font-size: 12px;
+    color: #333;
+    width: 167px;
+	height: 32px;
+    line-height: 32px;
+    padding: 0 0 0 33px;
+    position: absolute;
+    left:366px;
+    top: 36px;
+    display: none;
+    background: url(../images/reg_error.png) no-repeat;
+    color: red;
+} */
+#reg dl dd span.error_user2{
+	top: 36px;
+	left: 366px;
+}
+#reg dl dd span.succ_user{
+	top: 36;
+    left: 364px;
+} 
+
+
+/*密码验证*/
+
+#reg dl dd span.info_pass > p{
+    height: 25px;
+    font-size: 12px;
+	line-height: 25px;
+	color: orange;
+}
+
+#reg dl dd span.info_pass{
+    width: 260px;
+    height: 104px;
+    padding-top:2px;
+    background:  url(../images/reg_info3.png) no-repeat;
+    top: 68px;
+	left: 372px;
+}
+#reg dl dd span.error_pass{
+	top: 112px;
+	left: 372px;
+}
+#reg dl dd span.succ_pass{
+	top: 106px;
+	left: 372px;
+} 
+
+
+/*重新输入密码	*/
+#reg dl dd span.info_notpass{
+    top: 179px;
+	left: 372px;
+}
+#reg dl dd span.error_notpass{
+	top: 179px;
+	left: 372px;
+}
+#reg dl dd span.succ_notpass{
+	top: 179px;
+	left: 372px;
+} 
+
+
+/*电子邮箱*/
+#reg dl dd span.info_email{
+    top: 241px;
+	left: 372px;
+}
+#reg dl dd span.error_email{
+	top: 241px;
+	left: 372px;
+}
+#reg dl dd span.succ_email{
+	top: 241px;
+	left: 372px;
+}
+#reg dl dd ul.all_email{
+    width: 182px;
+	height: 180px;
+	padding: 5px 10px;
+	background: #fff;
+	position: absolute;
+	top: 274px;
+	left: 123px;
+	border: 1px solid #ccc;
+	font-size: 12px;
+	display: none;
+}
+#reg dl dd ul.all_email li{
+    height: 25px;
+	line-height: 25px;
+	border-bottom: 1px solid #e5edf2;
+	padding: 0 5px;
+	cursor: pointer;
+}

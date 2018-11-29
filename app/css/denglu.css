@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+body{
+    width: 100%;
+    height: 100%;
+    background-image: url(../images/xqy/denglu.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+
+}
+/* #beij{
+    width: 1280px;
+    height: 696px;
+    background-color:blanchedalmond;
+    opacity: 0.2;
+} */
+#denglu{
+    width: 350px;
+    height: 500px;
+    /* background: chartreuse; */
+    position: absolute;
+    top: 21px;
+    left: 450px;
+}
+#denglu div:first-child {
+    width: 350px;
+    height: 110px;
+}
+#denglu div img{
+max-width: 100%;
+max-height: 100%;
+}
+#denglu div:nth-child(2){
+    margin-top: 30px;
+}
+#denglu div:nth-child(2) p{
+    display: inline-block;
+    width:100px;
+    font-size: 16px;
+    color: beige;
+
+    margin-top: 40px;
+}
+#denglu div:nth-child(2) a{
+    width: 80px;
+    height: 20px;
+    margin-top: 10px;
+    margin-left: 265px;
+    color: white;
+    display: inline-block;
+}
+
+#denglu div:nth-child(2) input{
+    width: 240px;
+    height: 32px;
+    border: none;
+    border-radius: 5px;
+}
+#denglu div:nth-child(2) .deng{
+    height: 30px;
+    margin-left: 80px;
+    margin-top: 15px;
+    background: rgb(80, 187, 190);
+}
+#denglu div:nth-child(2) .deng:hover{
+    background:  rgb(60, 152, 155);
+}
+
+
+
+
+
+

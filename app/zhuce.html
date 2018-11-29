@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>梅赛德斯-注册</title>
+    <link rel="stylesheet" href="../css/zhuce.css">
+</head>
+
+<body>
+    <div id="beij">
+    </div>
+    <div id="denglu">
+        <div>
+            <img src="../images/xqy/dllogo2.png" alt="">
+        </div>
+        <div id="reg">
+            <form id="form" action="../php/zhuce.php" method="POST">
+                <dl>
+                    <dd>
+                        <p>请输入用户名:</p> <input id="uname" type="text" name="user" class="text" />
+                        <!-- <div id="checkUname">用户已注册，请换一个好听的!</div> -->
+                        <span id="info_user" class="info info_user">请输入用户名，2~20位，由字母、数字或下划线组成</span>
+                        <span id="error_user" class="error error_user">输入不合法，请重新输入!</span>
+                        <span id="error_user2" class="error error_user">用户已注册，请换一个好听的!</span>
+                        <span id="succ_user" class="succ succ_user">可用</span>
+
+                    </dd>
+
+                    <dd>
+                        <p>请输入密码:</p> <input id="pwd" type="password" name="pass" class="text" />
+                        <span id="info_pass" class="info info_pass">
+                            <p><strong id="q1" style="font-weight: normal;">○</strong> 6-20个字符</p>
+                            <p><strong id="q2" style="font-weight: normal;">○</strong> 只能包含大小写字母、数字和非空格字符</p>
+                            <p><strong id="q3" style="font-weight: normal;">○</strong> 大、小写字母、数字、非空字符，2种以上</p>
+                        </span>
+
+                        <span id="error_pass" class="error error_pass">输入不合法，请重新输入!</span>
+                        <span id="succ_pass" class="succ succ_pass">可用</span>
+                    </dd>
+
+
+                    <dd>
+                        <p>请再次输入密码:</p> <input type="password" name="notpass" class="text" />
+                        <span id="info_notpass" class="info info_notpass">请再一次输入密码！</span>
+                        <span id="error_notpass" class="error error_notpass">密码不一致，请重新输入!</span>
+                        <span id="succ_notpass" class="succ succ_notpass">可用</span>
+                    </dd>
+
+                    <dd>
+                        <p>电子邮件：</p><input id="email" type="text" name="email" class="text" autocomplete="off" />
+                        <span id="info_email" class="info info_email">请输入电子邮箱！</span>
+                        <span id="error_email" class="error error_email">邮箱不合法，请重新输入!</span>
+                        <span id="succ_email" class="succ succ_email">可用</span>
+                        <ul id="all_email" class="all_email">
+                            <li><span class="emailText"></span>@qq.com</li>
+                            <li><span class="emailText"></span>@163.com</li>
+                            <li><span class="emailText"></span>@souhu.com</li>
+                            <li><span class="emailText"></span>@sina.com.cn</li>
+                            <li><span class="emailText"></span>@gmail.com</li>
+                            <li><span class="emailText"></span>@yahoo.com.cn</li>
+                            <li><span class="emailText"></span>@yeah.net</li>
+                        </ul>
+                    </dd>
+                    <!-- 李威
+                        <QQ:721755859>
+                        微信：Elvmx47
+                        手机：17603065276 -->
+
+                    <input class="deng" type="submit" value="点击注册">
+                </dl>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
+<script src="../jquery/jquery.js"></script>
+<script src="../js/ajax.js"></script>
+<script src="../js/public.js"></script>
+<script src="../js/zhuce.js"></script>

@@ -1,0 +1,37 @@
+footer{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    background: #f1f1f1;
+    margin-top: 60px;
+}
+#box3{
+    width: 940px;
+    height: 100%;
+    padding-top:30px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+}
+#box3 div{
+    width: 220px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+#box3 div h3{
+    width: 100%;
+    height: 48px;
+    line-height: 48px;
+}
+#box3 div a{
+    width: 100%;
+    height: 47px;
+    display: inline-block;
+    line-height: 47px;
+    font-size: 14px;
+    color: black;
+}
+#box3 div a:hover{
+    color: #0aadce;
+}
